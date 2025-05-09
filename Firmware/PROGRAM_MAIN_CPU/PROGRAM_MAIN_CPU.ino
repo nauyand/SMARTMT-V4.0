@@ -16,7 +16,6 @@ const char validCode[] = "CITIA1234"; // Kode keamanan yang harus ada di EEPROM
 #define TX_PIN 11 // Pin TX
 
 SoftwareSerial mySerial(RX_PIN, TX_PIN); // Inisialisasi objek SoftwareSerial
-fadhil
 
 void readEEPROM(unsigned int address, char* buffer, int length) {
   for (int i = 0; i < length; i++) {
